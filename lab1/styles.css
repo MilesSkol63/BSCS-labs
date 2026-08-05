@@ -1,4 +1,24 @@
-h5,
-marquee {
-  font-size: 10rem;
+#page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+.link {
+  list-style-type: none;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+.panda:hover {
+  transform: scale(110%) skew(180deg);
+  transition: transform 1s ease-in-out;
 }
