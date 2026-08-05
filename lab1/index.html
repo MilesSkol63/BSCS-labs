@@ -4,29 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="page-container">
       <h1>About Myself</h1>
-      <h5><marquee behavior="" direction="">Ju-em Miles M. Corral</marquee></h5>
+      <marquee id="marq" behavior="scroll">
+        <h5>Ju-em Miles M. Corral</h5>
+      </marquee>
       <p>I am an expert. Hi.</p>
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFIgvF468m7Nd9QR_CSqPSPVt0MtDiYilzaX6xf-sQBA&s=10"
         alt="kungfu panda"
+        class="panda"
       />
-      <ul>
-        <li>Cloud Dev</li>
-        <li>Technopreneurship</li>
-        <li>IRS</li>
-      </ul>
-      <ol>
-        <li>Chicken</li>
-        <li>Noodles</li>
-        <li>Apple</li>
-      </ol>
-      <ul>
-        <li><a href="https://www.facebook.com/">Facebook</a></li>
-      </ul>
+      <div class="lists-container">
+        <ul id="subjects-list">
+          <li>Cloud Dev</li>
+          <li>Technopreneurship</li>
+          <li>IRS</li>
+        </ul>
+        <ol>
+          <li>Chicken</li>
+          <li>Noodles</li>
+          <li>Dumplings</li>
+        </ol>
+        <ul id="socmed">
+          <li class="link"><a href="https://www.facebook.com/">Facebook</a></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
