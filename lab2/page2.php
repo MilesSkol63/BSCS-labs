@@ -11,8 +11,8 @@
     </header>
     <nav>
         <ul>
-            <li><a href="page1.php">Go to page 1</a></li>
-            <li><a href="page3.php">Go to page 3</a></li>
+            <li><a href="page1.php" target="blank">Go to page 1</a></li>
+            <li><a href="page3.php" target="blank">Go to page 3</a></li>
         </ul>
     </nav>
 </body>
