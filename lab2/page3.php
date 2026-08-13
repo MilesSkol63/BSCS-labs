@@ -6,14 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <p>Page 3</p>
-    </header>
+    <?php $title = "<h1>PAGE 3</h1>" ?>
+    <?php $paragraph = "<p>This is the third page.</p>" ?>
+    <?php $header = "<header> $title $paragraph </header>" ?>
+    <?php echo $header ?>
     <nav>
         <ul>
             <li><a href="page1.php" target="blank">Go to page 1</a></li>
             <li><a href="page2.php" target="blank">Go to page 2</a></li>
+            <br>
+            <li><a href="index.php" target="blank"><h4>Back to home page</h4></a></li>
         </ul>
     </nav>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkR24HvC3Nklsg7vidAjaVfD34vPGfq3GR1FFB8ib9Msm2HD4fTCrWbvRQ&s=10" alt="Kungfu Panda poster 3">
 </body>
 </html>
