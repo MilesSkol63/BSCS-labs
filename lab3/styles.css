@@ -1,0 +1,30 @@
+table, th, tr, td {
+    border: 1px black solid;
+    padding: 3px;
+}
+
+table {
+    border-collapse: collapse; 
+}
+
+th {
+    background-color: blue;
+}
+
+td {
+    text-align: center;
+}
+
+#A {
+    background-color: orangered;
+}
+#Doe-green {
+    background-color: green;
+}
+#Juan {
+    background-color: yellow;
+}
+
+#purple {
+    background-color: purple;
+}
